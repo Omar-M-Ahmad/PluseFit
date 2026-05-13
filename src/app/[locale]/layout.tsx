@@ -5,6 +5,7 @@ import { Inter, Oswald } from "next/font/google";
 import { routing } from '@/i18n/routing';
 import { ThemeProvider } from "@/context/ThemeContext";
 import "../../index.css";
+import Script from 'next/script';
 
 const inter = Inter({
   subsets: ["latin"],
@@ -61,15 +62,12 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'} suppressHydrationWarning>
-      <head>
-        {/* Anti-flash: apply saved theme before first paint */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(){try{var t=localStorage.getItem('pulsefit-theme');if(t==='light'){document.documentElement.classList.remove('dark')}else{document.documentElement.classList.add('dark')}}catch(e){}})()`,
-          }}
-        />
-      </head>
       <body className={`${inter.variable} ${oswald.variable} font-body antialiased`}>
+        {/* Anti-flash: apply saved theme before first paint */}
+        <Script id="theme-init" strategy="beforeInteractive">
+          {`(function(){try{var t=localStorage.getItem('pulsefit-theme');if(t==='light'){document.documentElement.classList.remove('dark')}else{document.documentElement.classList.add('dark')}}catch(e){}})()`}
+        </Script>
+
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider>
             <div className="min-h-[100dvh] bg-pf-bg text-pf-text transition-colors duration-300">
