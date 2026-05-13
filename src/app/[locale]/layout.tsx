@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: t('title'),
     description: t('description'),
-    metadataBase: new URL('https://pulsefit.com'),
+    metadataBase: new URL('https://plusefit.netlify.app'),
     robots: "index, follow",
     openGraph: {
       title: t('title'),
