@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Light mode (default) */
+    --pf-bg: #F7F8FA;
+    --pf-surface: #FFFFFF;
+    --pf-elevated: #EEF2F6;
+    --pf-text: #0D1117;
+    --pf-muted: #5B6472;
+    --pf-border: #DCE3EA;
+    --pf-accent: #F0441A;
+    --pf-accent-hover: #D63A16;
+    --pf-energy: #D97706;
+    --pf-success: #16A34A;
+    --pf-glass: rgba(247, 248, 250, 0.85);
+
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 5.9% 10%;
+    --radius: 0.625rem;
+  }
+
+  .dark {
+    /* Dark mode */
+    --pf-bg: #070A0D;
+    --pf-surface: #10161D;
+    --pf-elevated: #161E27;
+    --pf-text: #F8FAFC;
+    --pf-muted: #A6B0BE;
+    --pf-border: #263241;
+    --pf-accent: #FF4D1C;
+    --pf-accent-hover: #E54316;
+    --pf-energy: #FACC15;
+    --pf-success: #22C55E;
+    --pf-glass: rgba(7, 10, 13, 0.85);
+
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: var(--pf-bg);
+    color: var(--pf-text);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer utilities {
+  .text-hero {
+    font-size: clamp(3rem, 7vw, 5.5rem);
+    font-weight: 700;
+    line-height: 1.05;
+    font-family: 'Oswald', sans-serif;
+  }
+  .text-section {
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    font-weight: 700;
+    line-height: 1.1;
+    font-family: 'Oswald', sans-serif;
+  }
+  .text-subsection {
+    font-size: clamp(1.25rem, 2vw, 1.75rem);
+    font-weight: 600;
+    line-height: 1.2;
+    font-family: 'Oswald', sans-serif;
+  }
+  .text-stat {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 700;
+    line-height: 1.0;
+    font-family: 'Oswald', sans-serif;
+  }
+  .text-caption {
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .space-section {
+    padding-top: clamp(80px, 12vh, 140px);
+    padding-bottom: clamp(80px, 12vh, 140px);
+  }
+}
+
+/* Custom scrollbar for dark mode */
+.dark ::-webkit-scrollbar {
+  width: 8px;
+}
+.dark ::-webkit-scrollbar-track {
+  background: #070A0D;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #263241;
+  border-radius: 4px;
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #374357;
+}
+
+/* Light mode scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F8FA;
+}
+::-webkit-scrollbar-thumb {
+  background: #DCE3EA;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B0B8C4;
+}

@@ -1,0 +1,442 @@
+{
+  "HomePage": {
+    "title": "PulseFit — Modern Gym & Fitness",
+    "description": "Join PulseFit, a modern fitness experience with expert coaches, flexible memberships, smart programs, and real progress tracking.",
+    "categories": {
+      "strength": "STRENGTH",
+      "fatLoss": "FAT LOSS",
+      "mobility": "MOBILITY",
+      "hiit": "HIIT",
+      "nutrition": "NUTRITION"
+    },
+    "hero": {
+      "headline": "Train stronger. Move better. Become unstoppable",
+      "subheadline": "Join a modern fitness experience built around expert coaching, smart programs, and real progress you can measure.",
+      "ctaPrimary": "Start Free Trial",
+      "ctaSecondary": "Explore Programs",
+      "trustLine": "Personal coaching · Flexible memberships · Beginner friendly",
+      "strengthProgress": "avg. strength progress",
+      "activeMembers": "active members",
+      "coachRating": "coach rating"
+    },
+    "stats": {
+      "coaches": "Expert Coaches",
+      "members": "Active Members",
+      "classes": "Weekly Classes",
+      "satisfaction": "Member Satisfaction"
+    },
+    "programs": {
+      "eyebrow": "TRAINING",
+      "heading": "Choose your path to progress.",
+      "strength": {
+        "title": "Strength Training",
+        "desc": "Build a solid foundation with progressive overload and proper technique."
+      },
+      "fatLoss": {
+        "title": "Fat Loss & Conditioning",
+        "desc": "High-intensity metabolic conditioning to burn fat and improve heart health."
+      },
+      "hiit": {
+        "title": "HIIT & Cardio",
+        "desc": "Fast-paced workouts designed to boost your endurance and metabolism."
+      },
+      "mobility": {
+        "title": "Mobility & Recovery",
+        "desc": "Improve your range of motion and recover faster with guided sessions."
+      }
+    },
+    "final": {
+      "heading": "Ready to transform your life?",
+      "subheading": "Join hundreds of members achieving real results every day. No excuses, just progress.",
+      "cta": "Start Your Journey"
+    },
+    "trial": {
+      "eyebrow": "START TODAY",
+      "heading": "Book your free trial session.",
+      "description": "Meet a coach, test the facilities, and get a simple starting plan based on your goal. No pressure. Just a first step.",
+      "features": {
+        "feature1": "No credit card required",
+        "feature2": "45-min session",
+        "feature3": "Cancel anytime"
+      },
+      "success": {
+        "title": "You're all set!",
+        "description": "We'll contact you within 24 hours to confirm your session."
+      },
+      "form": {
+        "fullName": "Full Name",
+        "email": "Email",
+        "phone": "Phone",
+        "goal": "Fitness Goal",
+        "date": "Preferred Date",
+        "time": "Preferred Time",
+        "notes": "Notes (optional)",
+        "notesPlaceholder": "Any injuries, preferences, or questions...",
+        "submit": "Book Free Trial"
+      },
+      "goals": {
+        "muscle": "Build Muscle",
+        "fat": "Lose Fat",
+        "fitness": "Improve Fitness",
+        "coaching": "Personal Coaching",
+        "unsure": "Not Sure Yet"
+      },
+      "times": {
+        "morning": "Morning (6AM - 12PM)",
+        "afternoon": "Afternoon (12PM - 5PM)",
+        "evening": "Evening (5PM - 9PM)"
+      }
+    },
+    "faq": {
+      "eyebrow": "QUESTIONS",
+      "heading": "Everything you need to know.",
+      "items": {
+        "q1": {
+          "q": "Do I need a membership for a trial?",
+          "a": "No, the trial session is completely free and requires no commitment or credit card upfront."
+        },
+        "q2": {
+          "q": "What should I bring to my first session?",
+          "a": "Bring comfortable workout clothes, indoor training shoes, a water bottle, and a towel. We provide everything else."
+        },
+        "q3": {
+          "q": "Are the memberships flexible?",
+          "a": "Yes, we offer both monthly no-contract options and discounted annual plans. You can pause or cancel with 30 days notice."
+        },
+        "q4": {
+          "q": "Do you have programs for total beginners?",
+          "a": "Absolutely. Most of our new members start from zero. Our coaches will guide you through the basics safely."
+        }
+      }
+    }
+  },
+  "Transformations": {
+    "eyebrow": "REAL RESULTS",
+    "heading": "Real progress. Visible results.",
+    "subtext": "Every transformation starts with a single decision. Here's what commitment looks like.",
+    "note": "Results vary based on consistency, nutrition, and individual conditions.",
+    "items": {
+      "alex": {
+        "name": "Alex M.",
+        "goal": "Fat Loss",
+        "duration": "12 Weeks",
+        "metric": "-8 KG",
+        "metricLabel": "Total Weight Lost",
+        "quote": "Lost 8kg in 12 weeks with consistent coaching and nutrition support. The plan actually fit my work schedule."
+      },
+      "sarah": {
+        "name": "Sarah K.",
+        "goal": "Build Strength",
+        "duration": "16 Weeks",
+        "metric": "+45 KG",
+        "metricLabel": "Strength Gain",
+        "quote": "Went from struggling with empty barbells to deadlifting 80kg. The structured progression made all the difference."
+      },
+      "james": {
+        "name": "James T.",
+        "goal": "Mobility",
+        "duration": "8 Weeks",
+        "metric": "-60%",
+        "metricLabel": "Pain Reduction",
+        "quote": "Chronic back stiffness gone. I move better at 35 than I did at 25. The recovery routines are game-changers."
+      }
+    }
+  },
+  "WhyPulseFit": {
+    "eyebrow": "WHY PULSEFIT",
+    "heading": "Why members stay consistent with PulseFit.",
+    "benefits": {
+      "smartPlans": {
+        "title": "Smart Training Plans",
+        "desc": "AI-assisted periodization that adapts to your recovery, schedule, and progress in real-time."
+      },
+      "coachLed": {
+        "title": "Coach-led Sessions",
+        "desc": "Every class is led by a certified professional who corrects form, pushes limits, and keeps you safe."
+      },
+      "tracking": {
+        "title": "Progress Tracking",
+        "desc": "Detailed metrics on strength, body composition, and workout consistency — visible in your dashboard."
+      },
+      "flexible": {
+        "title": "Flexible Memberships",
+        "desc": "No long-term contracts. Pause, upgrade, or switch plans anytime with zero penalty."
+      }
+    }
+  },
+  "Pulse": {
+    "label": "THE PULSE",
+    "productName": "PULSE ENERGY X1",
+    "productCategory": "Performance Training Shoes",
+    "price": "$149",
+    "cta": "Shop Now",
+    "readouts": {
+      "accel": "ACCEL",
+      "force": "FORCE",
+      "pulse": "PULSE",
+      "grid": "GRID",
+      "wave": "WAVE",
+      "field": "FIELD",
+      "active": "ACTIVE",
+      "sinusoidal": "SINUSOIDAL",
+      "stable": "STABLE"
+    }
+  },
+  "Trainers": {
+    "eyebrow": "MEET THE TEAM",
+    "heading": "Train with coaches who know how to guide.",
+    "items": {
+      "adam": {
+        "name": "Adam Carter",
+        "specialty": "Strength Coach",
+        "bio": "Former competitive powerlifter. Specializes in compound movements and progressive overload programming.",
+        "experience": "10+ years"
+      },
+      "lina": {
+        "name": "Lina Mansour",
+        "specialty": "Fat Loss & Mobility Coach",
+        "bio": "Combines metabolic conditioning with functional movement. Known for transforming beginners into confident athletes.",
+        "experience": "8+ years"
+      },
+      "omar": {
+        "name": "Omar Reed",
+        "specialty": "HIIT & Conditioning Coach",
+        "bio": "Elite endurance background. Designs high-intensity protocols that maximize calorie burn and cardiovascular fitness.",
+        "experience": "12+ years"
+      }
+    },
+    "viewSchedule": "View Schedule"
+  },
+  "Facilities": {
+    "eyebrow": "OUR SPACE",
+    "heading": "Designed for focused training.",
+    "zones": {
+      "strength": "Strength Zone",
+      "cardio": "Cardio Area",
+      "recovery": "Recovery Corner",
+      "group": "Group Studio"
+    }
+  },
+  "Pricing": {
+    "eyebrow": "MEMBERSHIP",
+    "heading": "Memberships that fit your routine.",
+    "mostPopular": "MOST POPULAR",
+    "month": "/month",
+    "getStarted": "Get Started",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "price": "$19",
+        "desc": "Perfect for beginners testing the waters.",
+        "features": [
+          "Gym access 3 days/week",
+          "Basic workout plan",
+          "Progress check-in",
+          "Community access"
+        ],
+        "cta": "Start Starter"
+      },
+      "plus": {
+        "name": "Plus",
+        "price": "$39",
+        "desc": "For committed athletes training consistently.",
+        "features": [
+          "Unlimited gym access",
+          "All group classes",
+          "Monthly coach check-in",
+          "Nutrition guidance",
+          "Progress tracking app"
+        ],
+        "cta": "Start Plus"
+      },
+      "elite": {
+        "name": "Elite",
+        "price": "$79",
+        "desc": "Maximum results with personalized coaching.",
+        "features": [
+          "Everything in Plus",
+          "4 PT sessions/month",
+          "Custom meal plan",
+          "Priority class booking",
+          "Recovery suite access"
+        ],
+        "cta": "Start Elite"
+      }
+    }
+  },
+  "Testimonials": {
+    "eyebrow": "TESTIMONIALS",
+    "heading": "Trusted by people who decided to start.",
+    "items": {
+      "maya": {
+        "quote": "I finally found a gym where the coaches actually follow up and adjust the plan. After 3 months, I'm 10kg down and actually enjoy training.",
+        "goal": "Fat Loss"
+      },
+      "daniel": {
+        "quote": "The programs are simple to follow, but the results feel serious. I've added 8kg of muscle in 6 months without living in the gym.",
+        "goal": "Build Muscle"
+      },
+      "priya": {
+        "quote": "I started as a beginner and never felt judged. That made me stay. Now I'm deadlifting my bodyweight and feel stronger than ever.",
+        "goal": "General Fitness"
+      }
+    }
+  },
+  "Ticker": {
+    "text": "ENDURE · BEYOND · LIMITS · DISCIPLINE · SPEED · POWER · "
+  },
+  "TrialCTA": {
+    "eyebrow": "START TODAY",
+    "heading": "Book your free trial session.",
+    "subtext": "Meet a coach, test the facilities, and get a simple starting plan based on your goal. No pressure. Just a first step.",
+    "features": [
+      "No credit card required",
+      "45-min session",
+      "Cancel anytime"
+    ],
+    "form": {
+      "fullName": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "fitnessGoal": "Fitness Goal",
+      "preferredDate": "Preferred Date",
+      "preferredTime": "Preferred Time",
+      "notes": "Notes (optional)",
+      "bookButton": "Book Free Trial",
+      "successTitle": "You're all set!",
+      "successMessage": "We'll contact you within 24 hours to confirm your session.",
+      "placeholders": {
+        "name": "John Doe",
+        "email": "john@example.com",
+        "phone": "+1 (555) 000-0000",
+        "notes": "Any injuries, preferences, or questions..."
+      }
+    },
+    "goals": {
+      "muscle": "Build Muscle",
+      "fat": "Lose Fat",
+      "fitness": "Improve Fitness",
+      "coaching": "Personal Coaching",
+      "unsure": "Not Sure Yet"
+    },
+    "times": {
+      "morning": "Morning (6AM - 12PM)",
+      "afternoon": "Afternoon (12PM - 5PM)",
+      "evening": "Evening (5PM - 9PM)"
+    }
+  },
+  "FAQ": {
+    "eyebrow": "FAQ",
+    "heading": "Questions? We've got answers.",
+    "items": [
+      {
+        "q": "Is PulseFit suitable for beginners?",
+        "a": "Absolutely. Over 40% of our members started with little to no gym experience. Our coaches specialize in making beginners feel confident and progress safely."
+      },
+      {
+        "q": "Can I try before subscribing?",
+        "a": "Yes — that's exactly what our free trial session is for. Book a 45-minute session, meet a coach, tour the facility, and get a taste of the PulseFit experience with zero commitment."
+      },
+      {
+        "q": "Do you provide nutrition guidance?",
+        "a": "Yes. All Plus and Elite memberships include nutrition guidance. Elite members get fully customized meal plans designed by certified sports nutritionists."
+      },
+      {
+        "q": "Are there women-only classes?",
+        "a": "We offer designated women-only training hours several times per week. Check our class schedule for current timings."
+      },
+      {
+        "q": "Can I freeze my membership?",
+        "a": "Life happens. You can freeze your membership for up to 3 months per year at no extra cost. Just give us 7 days notice."
+      },
+      {
+        "q": "Do you offer personal coaching?",
+        "a": "Yes. Personal coaching is included in our Elite plan, or available as a standalone add-on to any membership."
+      }
+    ]
+  },
+  "FinalCTA": {
+    "heading": "Your strongest routine starts here",
+    "subtext": "Start with one session, one plan, and one decision to move forward.",
+    "joinButton": "JOIN PULSEFIT",
+    "viewPricing": "Or view pricing"
+  },
+  "Auth": {
+    "welcomeBack": "Welcome back",
+    "signInDesc": "Sign in to manage your membership, bookings, and fitness progress.",
+    "forgotPassword": "Forgot password?",
+    "or": "or",
+    "googleContinue": "Continue with Google",
+    "dontHaveAccount": "Don't have an account?",
+    "alreadyHaveAccount": "Already have an account?",
+    "startJourney": "Start your fitness journey",
+    "signUpDesc": "Create your account and take the first step toward a stronger routine.",
+    "confirmPassword": "Confirm Password",
+    "createAccount": "Create Account",
+    "privacyNote": "Your information is only used for membership and training support.",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "quotes": {
+      "signin": "Consistency beats intensity when you show up every week.",
+      "signup": "The best investment you can ever make is in your own health.",
+      "attributionSignin": "— PulseFit Coaches",
+      "attributionSignup": "— PulseFit Team"
+    },
+    "altText": "Fitness motivation"
+  },
+  "Common": {
+    "ticker": "ENDURE · BEYOND · LIMITS · DISCIPLINE · SPEED · POWER · ",
+    "joinNow": "JOIN NOW",
+    "signIn": "SIGN IN",
+    "signUp": "SIGN UP",
+    "home": "HOME",
+    "programs": "PROGRAMS",
+    "trainers": "TRAINERS",
+    "results": "RESULTS",
+    "pricing": "PRICING",
+    "faq": "FAQ",
+    "viewProgram": "View Program",
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced",
+    "backToHome": "Back to Home",
+    "tryAgain": "Try Again"
+  },
+  "Footer": {
+    "tagline": "A modern fitness experience built around expert coaching, smart programs, and measurable progress.",
+    "explore": "EXPLORE",
+    "programsTitle": "PROGRAMS",
+    "contact": "CONTACT",
+    "newsletter": "Subscribe to our newsletter for training tips and exclusive offers.",
+    "emailPlaceholder": "Your email",
+    "subscribe": "SUBSCRIBE",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "cookies": "Cookies",
+    "hours": {
+      "weekdays": "Mon–Sat: 6AM–11PM",
+      "weekend": "Sun: 8AM–8PM"
+    },
+    "programs": {
+      "strength": "Strength Training",
+      "fatLoss": "Fat Loss",
+      "hiit": "HIIT",
+      "mobility": "Mobility & Recovery"
+    }
+  },
+  "Errors": {
+    "notFound": {
+      "eyebrow": "Error 404",
+      "title": "Page not found",
+      "description": "The page you are looking for doesn't exist or has been moved.",
+      "cta": "Back to Home"
+    },
+    "general": {
+      "eyebrow": "Error",
+      "title": "Something went wrong",
+      "description": "An unexpected error occurred. Our team has been notified.",
+      "cta": "Try Again"
+    }
+  }
+}
