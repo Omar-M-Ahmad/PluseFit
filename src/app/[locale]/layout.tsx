@@ -1,7 +1,7 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
-import { Inter, Oswald } from "next/font/google";
+import { Inter, Tajawal } from "next/font/google";
 import { routing } from '@/i18n/routing';
 import { ThemeProvider } from "@/context/ThemeContext";
 import "../../index.css";
@@ -13,10 +13,11 @@ const inter = Inter({
   display: 'swap',
 });
 
-const oswald = Oswald({
-  subsets: ["latin"],
-  variable: "--font-oswald",
+const tajawal = Tajawal({
+  subsets: ["latin", "arabic"],
+  variable: "--font-tajawal",
   display: 'swap',
+  weight: ['400', '500', '700'],
 });
 
 const locales = ['en', 'ar'];
@@ -62,7 +63,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'} suppressHydrationWarning>
-      <body className={`${inter.variable} ${oswald.variable} font-body antialiased`}>
+      <body className={`${inter.variable} ${tajawal.variable} font-body antialiased`}>
         {/* Anti-flash: apply saved theme before first paint */}
         <Script id="theme-init" strategy="beforeInteractive">
           {`(function(){try{var t=localStorage.getItem('pulsefit-theme');if(t==='light'){document.documentElement.classList.remove('dark')}else{document.documentElement.classList.add('dark')}}catch(e){}})()`}

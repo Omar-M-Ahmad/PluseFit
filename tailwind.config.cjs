@@ -12,6 +12,8 @@ module.exports = {
       fontFamily: {
         display: ['var(--font-oswald)', 'sans-serif'],
         body: ['var(--font-inter)', 'system-ui', 'sans-serif'],
+        sans: ['var(--font-inter)'],
+        arabic: ['var(--font-tajawal)'],
       },
       colors: {
         'pf-bg': 'var(--pf-bg)',
